@@ -684,7 +684,7 @@
                     <input type="password" id="adminPassword" placeholder="Enter admin password" required>
                 </div>
                 <button class="btn" onclick="adminLogin()">Login</button>
-                <button class="btn btn-secondary" onclick="showRegisterModal()">Create New Account</button>
+                <button class="btn btn-secondary" style="opacity: 0.5; cursor: not-allowed;" disabled >Account Creation Disabled (Beta)</button>
                 <div class="student-link">
                     <a href="https://alexdumpacc22-crypto.github.io/student-meeting-schedule/index.html">👤 Student Login</a>
                 </div>
@@ -755,7 +755,7 @@
                         <label for="regSecurityAnswer">Security Answer</label>
                         <input type="text" id="regSecurityAnswer" placeholder="Enter answer" required>
                     </div>
-                    <button class="btn btn-secondary" style="opacity: 0.5; cursor: not-allowed;" disabled >Account Creation Disabled (Beta)</button>
+                    <button type="submit" class="btn btn-success">Create Account</button>
                 </form>
             </div>
         </div>
@@ -2115,5 +2115,6 @@ Created By: ${admin.createdBy}
     </script>
 </body>
 </html>
+
 
 
